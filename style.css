@@ -1,5 +1,5 @@
 .back{
-    background-color: rgb(146, 146, 185);
+    background-color: rgb(219, 219, 241);
     color: #241424;
 }
 
@@ -25,4 +25,12 @@
 .image{
     height: 350px;
     width: 450px;
+}
+
+.whole_page{
+    background-color: antiquewhite;
+}
+
+.whithe-off{
+    mix-blend-mode: multiply;
 }
