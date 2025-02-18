@@ -38,4 +38,6 @@
 .floating_box{
     background-color: black;
     color: aliceblue;
+    border-radius: 30px;
+    padding: 20px;
 }
