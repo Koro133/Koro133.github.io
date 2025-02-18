@@ -23,8 +23,8 @@
 }
 
 .image{
-    height: 350px;
-    width: 450px;
+    height: 320px;
+    width: 470px;
 }
 
 .whole_page{
@@ -34,3 +34,4 @@
 .whithe-off{
     mix-blend-mode: multiply;
 }
+
