@@ -35,3 +35,7 @@
     mix-blend-mode: multiply;
 }
 
+.floating_box{
+    background-color: black;
+    color: aliceblue;
+}
