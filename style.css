@@ -36,7 +36,7 @@
     height: 300px;
     width: 470px;
     border-radius: 10px;
-    
+    box-shadow: -25px -10px 10px rgb(206, 206, 206);
 }
 
 .whole_page{
@@ -72,7 +72,6 @@
 
 .pend{
     display: flex;
-    padding: 20px ;
     background-color: #3a2b3a;
     border-radius: 25px;
 }
@@ -80,5 +79,5 @@
 
 .border{
     border-radius: 10px;
-    box-shadow: 10 px 5px 5px rgb(98, 84, 84);
+    box-shadow: -25px -10px 10px rgb(206, 206, 206);
 }
