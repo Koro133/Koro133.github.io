@@ -1,8 +1,20 @@
+body {
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.margin{
+    margin: 0 25px;
+}
+
 .back{
     background-color: rgb(219, 219, 241);
     padding: 10px;
     color: #241424;
     border-radius: 25px;
+    display:  flex;
 }
 
 .size{
@@ -15,12 +27,13 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    
 }
+
 
 .alignself{
     position: absolute;
     left: 20px;
+    top:11px;
 }
 
 
@@ -39,9 +52,11 @@
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
 }
 
-.whole_page{
-    background-color: rgb(245, 237, 226);
+.sticky{
+    position: sticky;
+    top:20px;
 }
+
 
 .whithe-off{
     mix-blend-mode: multiply;
@@ -80,4 +95,25 @@
 .border{
     border-radius: 10px;
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
+}
+
+.bottom{
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+    flex-direction: row;
+    background-color: black;
+    color: rgb(0, 0, 0);
+    align-items: end;
+    flex-grow: 1;
+}
+
+.gap{
+    gap: 30px;
+}
+
+.bordercir{
+    border-radius: 10px;
+    box-shadow: -60px -10px 10px rgb(206, 206, 206);
+    margin-right: 30px;
 }
