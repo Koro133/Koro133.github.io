@@ -29,12 +29,14 @@
     flex-direction: row;
     align-items:  center;
     gap: 75px;
+    
 }
 
 .image{
     height: 300px;
     width: 470px;
     border-radius: 10px;
+    
 }
 
 .whole_page{
@@ -50,6 +52,7 @@
     color: aliceblue;
     border-radius: 30px;
     padding: 20px;
+    box-shadow: 25px 10px 10px gray;
 }
 
 
@@ -77,4 +80,5 @@
 
 .border{
     border-radius: 10px;
+    box-shadow: 10 px 5px 5px rgb(98, 84, 84);
 }
