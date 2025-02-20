@@ -56,11 +56,19 @@ body {
 }
 
 .image{
-    width: 470px;
+    width: 500px;
     border-radius: 10px;
     box-shadow: 20px -20px 10px rgb(206, 206, 206);
-    max-width: 470px;
     height: auto;
+
+    transition: transform 1s;
+}
+
+.image:hover{
+    transform: scale(1.1);
+    position: relative;
+    top:3px;
+    left:1px;
 }
 
 .sticky{
@@ -107,7 +115,7 @@ body {
 
 .pend{
     display: flex;
-    background-color: #3a2b3a;
+    
     border-radius: 25px;
 }
 
@@ -115,8 +123,16 @@ body {
 .border{
     border-radius: 10px;
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
-    width: 420px;
-    height: 238px;
+    width: 500px;
+    height: auto;
+    transition: transform 1s;
+}
+
+.border:hover{
+    transform: scale(1.1);
+    position: relative;
+    top:3px;
+    left:1px;
 }
 
 
@@ -125,7 +141,16 @@ body {
     border-radius: 10px;
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
     width: 500px;
-    height: 300px;
+    height: auto;
+
+    transition: transform 1s;
+}
+
+.bordercir:hover{
+    transform: scale(1.1);
+    position: relative;
+    top:3px;
+    left:1px;
 }
 
 .bottom{
