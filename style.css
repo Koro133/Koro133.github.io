@@ -33,6 +33,13 @@ body {
 }
 
 
+.align2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .alignself{
     position: absolute;
     left: 20px;
@@ -74,6 +81,15 @@ body {
     box-shadow: 25px 10px 10px gray;
 }
 
+.floating_box:hover{
+    cursor: pointer;
+    background-color: #3a2b3a;
+    position: relative;
+    top: 2px;
+    left: 1px;
+}
+
+
 
 .create{
     display: flex;
@@ -103,6 +119,15 @@ body {
     height: 238px;
 }
 
+
+
+.bordercir{
+    border-radius: 10px;
+    box-shadow: -25px -10px 10px rgb(206, 206, 206);
+    width: 500px;
+    height: 300px;
+}
+
 .bottom{
     display: flex;
     margin-top: 50px;
@@ -118,31 +143,29 @@ body {
     gap: 30px;
 }
 
-.bordercir{
-    border-radius: 10px;
-    box-shadow: 20px -20px 10px rgb(206, 206, 206);
-    margin-right: 30px;
-}
-
 .marginbottom{
     margin-bottom: 20px;
 }
 
 
-@media (max-width: 576px) {
-    .align {
-      flex-direction: column; /* Stacks logo and title vertically */
-      align-items: center;    /* Centers them horizontally */
+@media screen and (max-width: 576px) {
+    .align{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     .box{
         flex-direction: column;
         align-items: center;
+        gap: 20px;
 
     }
 
     .create{
-        flex-direction: column;
+        flex-direction: column-reverse;
+        gap:20px;
     }
 
     .alignself {
