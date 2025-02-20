@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     min-height: 100%;
     font-size: 16px;
+    
 }
 
 
@@ -173,7 +174,8 @@ body {
 }
 
 
-@media screen and (max-width: 576px) {
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
     .align{
         display: flex;
         flex-direction: row;
@@ -194,42 +196,12 @@ body {
     }
 
     .alignself {
-        position: static; 
+        position: absolute; 
         margin-bottom: 1rem; /* Let it flow with the normal document layout */
       }
 
       .margin {
         margin: 0 10px;
       }
-  }
+}
 
-
-  @media screen and (min-width: 576px) and (max-width: 991px){
-    .align{
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .box{
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-
-    }
-
-    .create{
-        flex-direction: column-reverse;
-        gap:20px;
-    }
-
-    .alignself {
-        position: static; 
-        margin-bottom: 1rem; /* Let it flow with the normal document layout */
-      }
-
-      .margin {
-        margin: 0 10px;
-      }
-  }
