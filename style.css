@@ -3,7 +3,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100%;
+    font-size: 16px;
 }
+
+
 
 .margin{
     margin: 0 25px;
@@ -46,10 +49,11 @@ body {
 }
 
 .image{
-    height: 300px;
     width: 470px;
     border-radius: 10px;
-    box-shadow: -25px -10px 10px rgb(206, 206, 206);
+    box-shadow: 20px -20px 10px rgb(206, 206, 206);
+    max-width: 470px;
+    height: auto;
 }
 
 .sticky{
@@ -95,6 +99,8 @@ body {
 .border{
     border-radius: 10px;
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
+    width: 420px;
+    height: 238px;
 }
 
 .bottom{
@@ -114,6 +120,37 @@ body {
 
 .bordercir{
     border-radius: 10px;
-    box-shadow: -60px -10px 10px rgb(206, 206, 206);
+    box-shadow: 20px -20px 10px rgb(206, 206, 206);
     margin-right: 30px;
 }
+
+.marginbottom{
+    margin-bottom: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .align {
+      flex-direction: column; /* Stacks logo and title vertically */
+      align-items: center;    /* Centers them horizontally */
+    }
+
+    .box{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .create{
+        flex-direction: column;
+    }
+
+    .alignself {
+        position: static; 
+        margin-bottom: 1rem; /* Let it flow with the normal document layout */
+      }
+
+      .margin {
+        margin: 0 10px;
+      }
+  }
