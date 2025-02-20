@@ -179,29 +179,78 @@ body {
     .align{
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        transform: scale(1.1);
+       
+       
     }
+    .yellow{
+        align-items: start;
+    }
+   
+
+
+    .image{
+        width: 750px;
+        height: auto;
+    }
+
+
+    .border{
+        width: 750px;
+        height: auto;
+    }
+
+
+    .bordercir{
+        width: 750px;
+        height: auto;
+    }
+
 
     .box{
         flex-direction: column;
         align-items: center;
         gap: 20px;
 
+
     }
+
 
     .create{
         flex-direction: column-reverse;
         gap:20px;
     }
 
-    .alignself {
-        position: absolute; 
-        margin-bottom: 1rem; /* Let it flow with the normal document layout */
-      }
 
-      .margin {
+    .alignself {
+        position: absolute;
+        top:20px;
+        left:60px;
+        margin-bottom: 1rem; /* Let it flow with the normal document layout */
+       
+       
+       
+    }
+
+
+    .margin {
         margin: 0 10px;
-      }
+    }
+
+
+    .floating_box{
+        width: 750px;
+        height: auto;
+    }
+
+    .bottom{
+        visibility: hidden;
+    }
+
+
 }
+
+
 
