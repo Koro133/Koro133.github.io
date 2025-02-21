@@ -9,7 +9,58 @@ body {
     
 }
 
+body::-webkit-scrollbar{
+    display: none;
+}
 
+
+a{
+    text-decoration: none;
+}
+
+
+.page{
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-right: 15px; 
+}
+
+.em_s{
+    display: flex;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+    
+}
+.top{
+    margin-top: 32px;
+}
+.fontsize{
+    font-size: 200%;
+}
+
+.title{
+    margin: 25px;
+}
+
+.image_brightness{
+    filter: brightness(0.5);
+    width: 100%;
+}
+
+.text_upon{
+    position:absolute;
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: space-evenly;
+    color: aliceblue;
+    z-index:2;
+    font-size:200%
+}
 
 .margin{
     margin: 0 25px;
@@ -21,7 +72,18 @@ body {
     color: #241424;
     border-radius: 25px;
     display:  flex;
+    transition: transform 1s;
+    
 }
+
+
+.back:hover{
+    transform: scale(1.1);
+    background-color: rgb(226, 226, 251);
+    color: black;
+
+}
+
 
 .size{
     width: 75px;
@@ -33,6 +95,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    
 }
 
 
@@ -64,7 +127,7 @@ body {
     box-shadow: 20px -20px 10px rgb(206, 206, 206);
     height: auto;
 
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .image:hover{
@@ -94,8 +157,8 @@ body {
 
 .floating_box:hover{
     cursor: pointer;
-    
     position: relative;
+    background-color: #0c070c;
     top: 2px;
     left: 1px;
 }
@@ -128,7 +191,7 @@ body {
     box-shadow: -25px -10px 10px rgb(206, 206, 206);
     width: 500px;
     height: auto;
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .border:hover{
@@ -146,7 +209,7 @@ body {
     width: 500px;
     height: auto;
 
-    transition: transform 1s;
+    transition: transform 0.5s;
 }
 
 .bordercir:hover{
@@ -283,6 +346,10 @@ body {
 
     body{
         align-items: center;
+    }
+
+    h1{
+        font-size: 45px;
     }
 
 }
